@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: '/', // Default base path for development
+    base: '/My-CV/', // Default base path for development
   };
 
   // IMPORTANT: Adjust base path for GitHub Pages deployment
